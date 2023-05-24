@@ -3,8 +3,9 @@
 } */
 
 body {
-    background-color: #aac8e4;
-    background-image:url("istockphoto-1053121188-612x612.jpg");
+    background-color: rgb(115, 131, 221);
+    background-color: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
+    background-image:url("static/images/istockphoto-1053121188-612x612.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -95,7 +96,8 @@ nav a:hover{
     /* Additional styles for the button */
     background-color: rgb(23, 22, 29,0.3);
     border-color: #7815b1;
-    border-radius: 5px;
+    border-width: 5px;
+    border-radius: 25px;
     color:black !important;
     font-size:30px
   }
