@@ -1,0 +1,177 @@
+/* body{
+    background-color: #c26363;
+}
+
+*{
+    background-color: aliceblue;
+}
+
+
+  
+.rectangle2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 597px;
+height: 705px;
+left: 129px;
+top: 76px;
+
+background: #FFFFFF;
+border: 1px solid #FBD0D0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 46px;
+}
+
+ #Organizationlogin{
+position: relative;
+width: 447px;
+height: 50px;
+left: 140px;
+top: 116px;
+background: #FFFFFF;
+font-family: 'Calistoga';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 58px;
+
+color: #000000;
+} 
+
+.rectangle4{
+    box-sizing: border-box;
+margin:auto;
+position: absolute;
+width: 507px;
+height: 62px;
+left: 170px;
+top: 215px;
+
+background: #FFFFFF;
+border: 1px solid #BAB5B5;
+border-radius: 10px; 
+justify-content: space-between;
+   
+} */
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: bisque;
+    
+}
+
+
+.rectangle2{
+    box-sizing: border-box;
+
+position: relative;
+width: 597px;
+height: 705px;
+left: 129px;
+top: 76px;
+
+background: #FFFFFF;
+border: 1px solid #FBD0D0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 46px;
+
+}
+
+#Organizationlogin
+{
+
+    position: absolute;
+width: 447px;
+height: 50px;
+left: 43px;
+top: 116px;
+
+font-family: 'Calistoga';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 58px;
+
+color: #000000;
+}
+
+#email{
+    box-sizing: border-box;
+
+position: absolute;
+width: 507px;
+height: 62px;
+left:43px;
+top: 215px;
+font-family: 'IM FELL Double Pica';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+
+color: #878282;
+
+
+
+
+
+background: #FFFFFF;
+border: 1px solid #BAB5B5;
+border-radius: 10px;
+}
+
+#password{
+    box-sizing: border-box;
+
+position: absolute;
+width: 507px;
+height: 62px;
+left: 43px;
+top: 334px;
+font-family: 'IM FELL Double Pica';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+
+color: #878282;
+
+
+background: #FFFFFF;
+border: 1px solid #BAB5B5;
+border-radius: 10px;
+}
+
+#submit{
+    box-sizing: border-box;
+
+position: absolute;
+width: 507px;
+height: 61px;
+left: 43px;
+top: 456px;
+
+font-family: 'IM FELL Double Pica';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+
+color: #0A0B0B;
+
+
+background: #90C38A;
+border: 1px solid #BAB5B5;
+border-radius: 10px;
+}
+
