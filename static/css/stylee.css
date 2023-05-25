@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: bisque; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login{
+    width:800px;
+    min-height: 400px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    display: flex;
+    border: 1px solid #FBD0D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 46px;
+}
+
+.content{
+    flex-basis :50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background : bisque;
+
+}
+.content img{
+    width: 100%;
+}
+
+.loginform{
+    flex-basis :50%;
+    background: #f5f2ef;
+    font-family: 'IM FELL Double Pica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    padding:25px;
+}
+
+.loginform h2{
+    font-family: 'Calistoga';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 58px;
+text-align:center;
+margin-top: 25px;
+color: #000000;
+}
+
+.tbox{
+    background: transparent;
+border: 1px solid #BAB5B5;
+border-radius: 10px;
+transform: rotate(0.14deg);
+width: 100%;
+min-height:35px;
+margin:30px 0;
+
+}
+
+.tbox input{
+    background: transparent;
+    width:90%;
+    outline:none;
+    border: 0;
+    padding-left: 5px;
+}
+
+.submit{
+    width:100%;
+    border:0;
+    background: #72EF61;
+    border-radius: 20px;
+    padding: 10px;
+    font-size:20px;
+}
+
+@media(max-width:800px)
+{
+    .login{
+        flex-direction: column;
+        margin:0 35px;
+    }
+}
