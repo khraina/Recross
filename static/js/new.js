@@ -1,25 +1,17 @@
+
 const rateSpan = document.querySelector("#rateSpan")
-console.log(rateSpan)
+const rateForm = document.querySelector("#rateForm")
+//console.log(rateSpan)
 const baseUrl = "http://apilayer.net/api"
 const apiKey = "28851dac7733a3d2f0409f37f95ac9c9" // Add your API Key here
 let data; // undefined
 
-// async function getStatus(){
-//     const endpoint = "/validate" // local variable - local to getStatus
 
-//     const response = await fetch(`${baseUrl}${endpoint}?access_key=${apiKey}`)
-//     console.log(response);
-//     data = await response.json()
-    
-//     console.log("Data from the API: ", data)
-// }
 
-// getStatus()
-
- async function getNumber(){
+ async function getNumber(pno){
     const endpoint = "/validate" 
-    const number = +917994334400;
-    const response = await fetch(`${baseUrl}${endpoint}?access_key=${apiKey}&number=${number}`)
+    
+    const response = await fetch(`${baseUrl}${endpoint}?access_key=${apiKey}&number=${pno}`)
     
 
     const data = await response.json() 
@@ -46,14 +38,15 @@ let data; // undefined
  }
 
 
- getNumber()
-//  rateForm.addEventListener("submit", handleSubmit)
+// getNumber()
+ rateForm.addEventListener("submit", handleSubmit)
 
-//  function handleSubmit(event){
-//      event.preventDefault()
-    
-//      let currency = rateForm.elements["currency"].value
-//     console.log("Hello world")
-//     getExchangeRate(currency)
+  function handleSubmit(event){
+      event.preventDefault()
+      let pno= event.target["number"].value
+      getNumber(pno);
+      // let pno = rateForm.elements["number"].value
+      //   console.log("Hello world")
+      // getExchangeRate(pno);
 
- //}
+ }
