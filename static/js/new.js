@@ -1,5 +1,5 @@
-
-
+const rateSpan = document.querySelector("#rateSpan")
+console.log(rateSpan)
 const baseUrl = "http://apilayer.net/api"
 const apiKey = "28851dac7733a3d2f0409f37f95ac9c9" // Add your API Key here
 let data; // undefined
@@ -18,14 +18,17 @@ let data; // undefined
 
  async function getNumber(){
     const endpoint = "/validate" 
-    const number = 441179287870;
+    const number = +917994334400;
     const response = await fetch(`${baseUrl}${endpoint}?access_key=${apiKey}&number=${number}`)
     
 
-    const data = await response.json() // in every case
+    const data = await response.json() 
 
-     console.log(data)
-    
+     console.log(data.carrier)
+     
+     let rate= data.carrier
+
+     rateSpan.innerHTML= `<strong>${rate}<strong>`
     // let currencyData = data.data
     //console.log(currencyData)
 
@@ -39,7 +42,7 @@ let data; // undefined
 
      //rateSpan.innerHTML = htmlArray.join("")
 
-     console.log("Glad I could help you out")
+     //console.log("Glad I could help you out")
  }
 
 
