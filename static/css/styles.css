@@ -175,3 +175,64 @@ border: 1px solid #BAB5B5;
 border-radius: 10px;
 }
 
+/* #rateForm{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    background: bisque; 
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+/* #submit{
+    width:200px;
+    border:0;
+    background: #72EF61;
+    border-radius: 20px;
+    padding: 10px;
+    font-size:20px;
+} */
+
+.container{
+    background-color:rgba(226, 193, 102, 0.719);
+    width: 500px;
+    margin:20px;
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: #878282;
+}
+
+
+.container h2{
+    font-family: 'Calistoga';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+
+text-align:center;
+margin-top: 25px;
+color: #000000;
+}
+
+/* .submits{
+    width:200px;
+    border:0;
+    background: #72EF61;
+    border-radius: 20px;
+    padding: 10px;
+    font-size:20px;
+    
+} */
+

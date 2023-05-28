@@ -6,25 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number verification</title>
-    <link rel="stylesheet" href="static/css/stylee.css">
+    <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
-    <h1>number details</h1>
-
     
+    
+    <div class="container">
+        
+    <h1>Number details</h1>
+    <form id="rateForm">
+       <div class="tbox">
 
-     <form id="rateForm">
-        <label for="number">Number</label>
-        <input type="text" id="number" name="number">
+           <label for="number">Number</label>
+           <input type="text" id="number" name="number">
+        </div>
+        
+         <div class="submits"> 
 
-
-        <button type="submit">Verify number details</button>
+            <button type="submit" id="submits">Verify number details</button>
+        
     </form>
-
+    
     <p>
         Carrier Name: <span id="rateSpan"></span>
     </p>
-
+    
+</div>
     <!-- <script src="./scripts.js"></script> -->
     <script src="static/js/new.js"></script>
 </body>
